@@ -1,0 +1,19 @@
+5
+1
+Nuevo
+4001
+nuevo@mail.com
+2
+Equivalencia Quimica
+alta
+2
+2
+1
+3
+3
+R1
+2
+3
+1
+5
+0

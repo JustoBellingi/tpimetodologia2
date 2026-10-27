@@ -1,0 +1,17 @@
+{
+  "contador": 1,
+  "solicitudes": [
+    {
+      "id": 1,
+      "nom": "Ana Diaz",
+      "leg": "1001",
+      "mail": "ana@mail.com",
+      "tipo": "CAMBIO_COMISION",
+      "desc": "Cambio a comision B",
+      "prio": "baja",
+      "est": "P",
+      "resp": null,
+      "fecha": "<FECHA_DE_ALTA>"
+    }
+  ]
+}

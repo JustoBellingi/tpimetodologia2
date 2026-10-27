@@ -1,0 +1,41 @@
+{
+  "contador": 3,
+  "solicitudes": [
+    {
+      "id": 1,
+      "nom": "Pedro",
+      "leg": "3001",
+      "mail": "pedro@mail.com",
+      "tipo": "CERTIFICADO",
+      "desc": "Cert 1",
+      "prio": "alta",
+      "est": "P",
+      "resp": null,
+      "fecha": "<FECHA_DE_ALTA>"
+    },
+    {
+      "id": 2,
+      "nom": "Pedro",
+      "leg": "3001",
+      "mail": "pedro@mail.com",
+      "tipo": "RECLAMO_NOTA",
+      "desc": "Reclamo final",
+      "prio": "baja",
+      "est": "P",
+      "resp": null,
+      "fecha": "<FECHA_DE_ALTA>"
+    },
+    {
+      "id": 3,
+      "nom": "Lucia",
+      "leg": "3002",
+      "mail": "lucia@mail.com",
+      "tipo": "RECLAMO_NOTA",
+      "desc": "Reclamo TP",
+      "prio": "alta",
+      "est": "P",
+      "resp": null,
+      "fecha": "<FECHA_DE_ALTA>"
+    }
+  ]
+}

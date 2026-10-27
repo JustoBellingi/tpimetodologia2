@@ -1,0 +1,146 @@
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Nombre del estudiante: Legajo: Email: Tipos: 1-Certificado 2-Equivalencia 3-Cambio de comision 4-Reclamo de nota
+Tipo: Descripcion: Prioridad (alta/media/baja): Solicitud registrada con ID 1
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Nombre del estudiante: Legajo: Email: Tipos: 1-Certificado 2-Equivalencia 3-Cambio de comision 4-Reclamo de nota
+Tipo: Descripcion: Prioridad (alta/media/baja): Solicitud registrada con ID 2
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Nombre del estudiante: Legajo: Email: Tipos: 1-Certificado 2-Equivalencia 3-Cambio de comision 4-Reclamo de nota
+Tipo: Descripcion: Prioridad (alta/media/baja): Solicitud registrada con ID 3
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo
+Criterio: Valor: Error: criterio invalido
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo
+Criterio: Valor: Error: estado invalido
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo
+Criterio: Valor: Error: tipo de solicitud invalido
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo
+Criterio: Valor: No se encontraron solicitudes
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo
+Criterio: Valor: #1 [CERTIFICADO] Pedro (legajo 3001) - prioridad alta - PENDIENTE - responsable: sin asignar
+#2 [RECLAMO_NOTA] Pedro (legajo 3001) - prioridad baja - PENDIENTE - responsable: sin asignar
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo
+Criterio: Valor: #2 [RECLAMO_NOTA] Pedro (legajo 3001) - prioridad baja - PENDIENTE - responsable: sin asignar
+#3 [RECLAMO_NOTA] Lucia (legajo 3002) - prioridad alta - PENDIENTE - responsable: sin asignar
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo
+Criterio: Valor: #1 [CERTIFICADO] Pedro (legajo 3001) - prioridad alta - PENDIENTE - responsable: sin asignar
+#2 [RECLAMO_NOTA] Pedro (legajo 3001) - prioridad baja - PENDIENTE - responsable: sin asignar
+#3 [RECLAMO_NOTA] Lucia (legajo 3002) - prioridad alta - PENDIENTE - responsable: sin asignar
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Opcion invalida
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: ==== REPORTE DE SOLICITUDES ====
+Total: 3
+Por estado:
+  PENDIENTE: 3
+  EN PROCESO: 0
+  RESUELTA: 0
+  RECHAZADA: 0
+Por tipo:
+  CERTIFICADO: 1
+  EQUIVALENCIA: 0
+  CAMBIO_COMISION: 0
+  RECLAMO_NOTA: 2
+Pendientes de prioridad alta:
+  #1 [CERTIFICADO] Pedro (legajo 3001) - prioridad alta - PENDIENTE - responsable: sin asignar
+  #3 [RECLAMO_NOTA] Lucia (legajo 3002) - prioridad alta - PENDIENTE - responsable: sin asignar
+================================
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Hasta luego

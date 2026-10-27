@@ -1,0 +1,41 @@
+{
+  "contador": 3,
+  "solicitudes": [
+    {
+      "id": 1,
+      "nom": "Juan Perez",
+      "leg": "1001",
+      "mail": "juan@mail.com",
+      "tipo": "CERTIFICADO",
+      "desc": "Certificado de alumno regular",
+      "prio": "alta",
+      "est": "R",
+      "resp": "R2",
+      "fecha": "<FECHA_DE_ALTA>"
+    },
+    {
+      "id": 2,
+      "nom": "Maria Lopez",
+      "leg": "1002",
+      "mail": "maria@mail.com",
+      "tipo": "EQUIVALENCIA",
+      "desc": "Equivalencia de Algebra",
+      "prio": "media",
+      "est": "X",
+      "resp": "R1",
+      "fecha": "<FECHA_DE_ALTA>"
+    },
+    {
+      "id": 3,
+      "nom": "Carlos Ruiz",
+      "leg": "1003",
+      "mail": "carlos@mail.com",
+      "tipo": "RECLAMO_NOTA",
+      "desc": "Reclamo nota parcial 2",
+      "prio": "alta",
+      "est": "P",
+      "resp": null,
+      "fecha": "<FECHA_DE_ALTA>"
+    }
+  ]
+}

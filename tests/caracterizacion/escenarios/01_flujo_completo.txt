@@ -1,0 +1,50 @@
+1
+Juan Perez
+1001
+juan@mail.com
+1
+Certificado de alumno regular
+alta
+1
+Maria Lopez
+1002
+maria@mail.com
+2
+Equivalencia de Algebra
+media
+1
+Carlos Ruiz
+1003
+carlos@mail.com
+4
+Reclamo nota parcial 2
+alta
+3
+1
+R2
+2
+1
+1
+2
+1
+2
+3
+2
+r1
+2
+2
+3
+5
+4
+1
+1
+4
+1
+2
+4
+2
+4
+4
+3
+1002
+0

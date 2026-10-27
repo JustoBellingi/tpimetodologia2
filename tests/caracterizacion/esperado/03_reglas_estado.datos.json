@@ -1,0 +1,29 @@
+{
+  "contador": 2,
+  "solicitudes": [
+    {
+      "id": 1,
+      "nom": "Luis",
+      "leg": "2001",
+      "mail": "luis@mail.com",
+      "tipo": "EQUIVALENCIA",
+      "desc": "Equivalencia Fisica",
+      "prio": "media",
+      "est": "R",
+      "resp": "R3",
+      "fecha": "<FECHA_DE_ALTA>"
+    },
+    {
+      "id": 2,
+      "nom": "Sofia",
+      "leg": "2002",
+      "mail": "sofia@mail.com",
+      "tipo": "CERTIFICADO",
+      "desc": "Certificado analitico",
+      "prio": "baja",
+      "est": "X",
+      "resp": null,
+      "fecha": "<FECHA_DE_ALTA>"
+    }
+  ]
+}

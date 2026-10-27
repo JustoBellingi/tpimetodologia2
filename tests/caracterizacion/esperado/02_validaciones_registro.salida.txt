@@ -1,0 +1,102 @@
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Nombre del estudiante: Legajo: Email: Tipos: 1-Certificado 2-Equivalencia 3-Cambio de comision 4-Reclamo de nota
+Tipo: Descripcion: Prioridad (alta/media/baja): Error: el nombre es obligatorio
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Nombre del estudiante: Legajo: Email: Tipos: 1-Certificado 2-Equivalencia 3-Cambio de comision 4-Reclamo de nota
+Tipo: Descripcion: Prioridad (alta/media/baja): Error: el legajo debe ser numerico
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Nombre del estudiante: Legajo: Email: Tipos: 1-Certificado 2-Equivalencia 3-Cambio de comision 4-Reclamo de nota
+Tipo: Descripcion: Prioridad (alta/media/baja): Error: el email no es valido
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Nombre del estudiante: Legajo: Email: Tipos: 1-Certificado 2-Equivalencia 3-Cambio de comision 4-Reclamo de nota
+Tipo: Descripcion: Prioridad (alta/media/baja): Error: tipo de solicitud invalido
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Nombre del estudiante: Legajo: Email: Tipos: 1-Certificado 2-Equivalencia 3-Cambio de comision 4-Reclamo de nota
+Tipo: Descripcion: Prioridad (alta/media/baja): Error: la descripcion es obligatoria
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Nombre del estudiante: Legajo: Email: Tipos: 1-Certificado 2-Equivalencia 3-Cambio de comision 4-Reclamo de nota
+Tipo: Descripcion: Prioridad (alta/media/baja): Error: la prioridad debe ser alta, media o baja
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Nombre del estudiante: Legajo: Email: Tipos: 1-Certificado 2-Equivalencia 3-Cambio de comision 4-Reclamo de nota
+Tipo: Descripcion: Prioridad (alta/media/baja): Solicitud registrada con ID 1
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: ==== REPORTE DE SOLICITUDES ====
+Total: 1
+Por estado:
+  PENDIENTE: 1
+  EN PROCESO: 0
+  RESUELTA: 0
+  RECHAZADA: 0
+Por tipo:
+  CERTIFICADO: 0
+  EQUIVALENCIA: 0
+  CAMBIO_COMISION: 1
+  RECLAMO_NOTA: 0
+Pendientes de prioridad alta:
+  (ninguna)
+================================
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Hasta luego

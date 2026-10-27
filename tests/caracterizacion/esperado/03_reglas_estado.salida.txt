@@ -1,0 +1,186 @@
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Nombre del estudiante: Legajo: Email: Tipos: 1-Certificado 2-Equivalencia 3-Cambio de comision 4-Reclamo de nota
+Tipo: Descripcion: Prioridad (alta/media/baja): Solicitud registrada con ID 1
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Nombre del estudiante: Legajo: Email: Tipos: 1-Certificado 2-Equivalencia 3-Cambio de comision 4-Reclamo de nota
+Tipo: Descripcion: Prioridad (alta/media/baja): Solicitud registrada con ID 2
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: ID de la solicitud: Estados: 1-En proceso 2-Resuelta 3-Rechazada
+Nuevo estado: Error: la solicitud debe tener responsable para pasar a EN PROCESO
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: ID de la solicitud: Estados: 1-En proceso 2-Resuelta 3-Rechazada
+Nuevo estado: Error: no se puede pasar de PENDIENTE a RESUELTA
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: ID de la solicitud: Estados: 1-En proceso 2-Resuelta 3-Rechazada
+Nuevo estado: Error: no existe la solicitud 99
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: ID de la solicitud:   R1 - Ana Gomez (Alumnos)
+  R2 - Luis Perez (Academica)
+  R3 - Marta Diaz (Tesoreria)
+Codigo de responsable: Error: no existe la solicitud 99
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: ID de la solicitud:   R1 - Ana Gomez (Alumnos)
+  R2 - Luis Perez (Academica)
+  R3 - Marta Diaz (Tesoreria)
+Codigo de responsable: Error: no existe el responsable R9
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: ID de la solicitud: Estados: 1-En proceso 2-Resuelta 3-Rechazada
+Nuevo estado: Error: opcion de estado invalida
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: ID de la solicitud:   R1 - Ana Gomez (Alumnos)
+  R2 - Luis Perez (Academica)
+  R3 - Marta Diaz (Tesoreria)
+Codigo de responsable: Responsable Marta Diaz (Tesoreria) asignado a la solicitud 1
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: ID de la solicitud: Estados: 1-En proceso 2-Resuelta 3-Rechazada
+Nuevo estado: Solicitud 1 actualizada a EN PROCESO
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: ID de la solicitud: Estados: 1-En proceso 2-Resuelta 3-Rechazada
+Nuevo estado: Error: la solicitud ya esta EN PROCESO
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: ID de la solicitud: Estados: 1-En proceso 2-Resuelta 3-Rechazada
+Nuevo estado: Solicitud 1 actualizada a RESUELTA
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: ID de la solicitud: Estados: 1-En proceso 2-Resuelta 3-Rechazada
+Nuevo estado: Error: la solicitud esta cerrada y no puede modificarse
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: ID de la solicitud:   R1 - Ana Gomez (Alumnos)
+  R2 - Luis Perez (Academica)
+  R3 - Marta Diaz (Tesoreria)
+Codigo de responsable: Error: la solicitud esta cerrada y no puede modificarse
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: ID de la solicitud: Estados: 1-En proceso 2-Resuelta 3-Rechazada
+Nuevo estado: Solicitud 2 actualizada a RECHAZADA
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo
+Criterio: Valor: #2 [CERTIFICADO] Sofia (legajo 2002) - prioridad baja - RECHAZADA - responsable: sin asignar
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Opcion invalida
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Hasta luego

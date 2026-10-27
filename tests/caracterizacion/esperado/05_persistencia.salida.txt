@@ -1,0 +1,97 @@
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: ==== REPORTE DE SOLICITUDES ====
+Total: 2
+Por estado:
+  PENDIENTE: 1
+  EN PROCESO: 1
+  RESUELTA: 0
+  RECHAZADA: 0
+Por tipo:
+  CERTIFICADO: 1
+  EQUIVALENCIA: 0
+  CAMBIO_COMISION: 0
+  RECLAMO_NOTA: 1
+Pendientes de prioridad alta:
+  #1 [CERTIFICADO] Previo Uno (legajo 500) - prioridad alta - PENDIENTE - responsable: sin asignar
+================================
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Nombre del estudiante: Legajo: Email: Tipos: 1-Certificado 2-Equivalencia 3-Cambio de comision 4-Reclamo de nota
+Tipo: Descripcion: Prioridad (alta/media/baja): Solicitud registrada con ID 3
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: ID de la solicitud: Estados: 1-En proceso 2-Resuelta 3-Rechazada
+Nuevo estado: Error: la solicitud ya esta EN PROCESO
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: ID de la solicitud:   R1 - Ana Gomez (Alumnos)
+  R2 - Luis Perez (Academica)
+  R3 - Marta Diaz (Tesoreria)
+Codigo de responsable: Responsable Ana Gomez (Alumnos) asignado a la solicitud 3
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: ID de la solicitud: Estados: 1-En proceso 2-Resuelta 3-Rechazada
+Nuevo estado: Solicitud 3 actualizada a EN PROCESO
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: ==== REPORTE DE SOLICITUDES ====
+Total: 3
+Por estado:
+  PENDIENTE: 1
+  EN PROCESO: 2
+  RESUELTA: 0
+  RECHAZADA: 0
+Por tipo:
+  CERTIFICADO: 1
+  EQUIVALENCIA: 1
+  CAMBIO_COMISION: 0
+  RECLAMO_NOTA: 1
+Pendientes de prioridad alta:
+  #1 [CERTIFICADO] Previo Uno (legajo 500) - prioridad alta - PENDIENTE - responsable: sin asignar
+================================
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Hasta luego

@@ -1,0 +1,7 @@
+{
+  "contador": 2,
+  "solicitudes": [
+    {"id": 1, "nom": "Previo Uno", "leg": "500", "mail": "p1@mail.com", "tipo": "CERTIFICADO", "desc": "Cargada antes", "prio": "alta", "est": "P", "resp": null, "fecha": "2026-09-01"},
+    {"id": 2, "nom": "Previo Dos", "leg": "501", "mail": "p2@mail.com", "tipo": "RECLAMO_NOTA", "desc": "Otra previa", "prio": "media", "est": "E", "resp": "R2", "fecha": "2026-09-02"}
+  ]
+}

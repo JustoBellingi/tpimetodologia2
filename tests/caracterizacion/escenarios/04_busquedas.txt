@@ -1,0 +1,45 @@
+1
+Pedro
+3001
+pedro@mail.com
+1
+Cert 1
+alta
+1
+Pedro
+3001
+pedro@mail.com
+4
+Reclamo final
+baja
+1
+Lucia
+3002
+lucia@mail.com
+4
+Reclamo TP
+alta
+4
+9
+1
+4
+1
+8
+4
+2
+7
+4
+3
+9999
+4
+3
+3001
+4
+2
+4
+4
+1
+1
+x
+5
+0
