@@ -32,14 +32,15 @@ def normalizar_datos(datos):
     return datos
 
 
-def ejecutar(nombre_escenario):
+def ejecutar(nombre_escenario, app=APP):
+    """`app` permite ejecutar el mismo escenario sobre otra versión del sistema."""
     entrada = (ESCENARIOS / f"{nombre_escenario}.txt").read_text(encoding="utf-8")
     datos_iniciales = ESCENARIOS / f"{nombre_escenario}.datos_iniciales.json"
     with tempfile.TemporaryDirectory() as carpeta_temporal:
         if datos_iniciales.exists():
             shutil.copy(datos_iniciales, Path(carpeta_temporal) / "datos.json")
         resultado = subprocess.run(
-            [sys.executable, str(APP)],
+            [sys.executable, str(app)],
             input=entrada,
             capture_output=True,
             text=True,
