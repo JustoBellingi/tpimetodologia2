@@ -12,4 +12,10 @@ def main() -> None:
     catalogo = CatalogoResponsables(RESPONSABLES_POR_DEFECTO)
     repositorio = RepositorioJSON(ARCHIVO_DE_DATOS, catalogo)
     servicio = ServicioSolicitudes(repositorio, catalogo)
-    Consola(servicio, reporte=lambda: generar_reporte(repositorio)).ejecutar()
+    avisos = []
+    if repositorio.respaldo_de_archivo_danado:
+        avisos.append(
+            f"Aviso: {ARCHIVO_DE_DATOS} no se pudo leer. Se guardo una copia en "
+            f"{repositorio.respaldo_de_archivo_danado} y se empieza con datos vacios."
+        )
+    Consola(servicio, reporte=lambda: generar_reporte(repositorio)).ejecutar(avisos)

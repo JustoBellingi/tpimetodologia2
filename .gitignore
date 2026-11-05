@@ -2,3 +2,5 @@ datos.json
 __pycache__/
 .pytest_cache/
 *.pyc
+datos.json.danado*
+datos.json.tmp

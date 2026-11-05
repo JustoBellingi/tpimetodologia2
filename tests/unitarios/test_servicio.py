@@ -83,3 +83,19 @@ def test_el_repositorio_json_recupera_lo_guardado(tmp_path):
     recargado = RepositorioJSON(ruta, CATALOGO).obtener(1)
     assert recargado.responsable.area == "Tesoreria"
     assert recargado.fecha_alta == HOY
+
+
+def test_un_archivo_danado_se_respalda_y_no_se_pierde(tmp_path):
+    # Version inicial: se arrancaba vacio y el siguiente guardado borraba los datos sin avisar.
+    ruta = tmp_path / "datos.json"
+    ruta.write_text("{contenido roto", encoding="utf-8")
+    repositorio = RepositorioJSON(ruta, CATALOGO)
+    assert repositorio.respaldo_de_archivo_danado == tmp_path / "datos.json.danado"
+    assert repositorio.respaldo_de_archivo_danado.read_text(encoding="utf-8") == "{contenido roto"
+    ServicioSolicitudes(repositorio, CATALOGO, hoy=lambda: HOY).registrar(datos())
+    assert repositorio.respaldo_de_archivo_danado.read_text(encoding="utf-8") == "{contenido roto"
+
+
+def test_un_archivo_sano_no_genera_respaldo(tmp_path):
+    repositorio = RepositorioJSON(tmp_path / "datos.json", CATALOGO)
+    assert repositorio.respaldo_de_archivo_danado is None

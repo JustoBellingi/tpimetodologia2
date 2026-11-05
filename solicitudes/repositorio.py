@@ -7,6 +7,7 @@ El reporte solo necesita leer, así que depende de la interfaz más chica `Fuent
 from __future__ import annotations
 
 import json
+import os
 from datetime import date
 from pathlib import Path
 from typing import Optional, Protocol
@@ -87,6 +88,7 @@ class RepositorioJSON:
         self._ruta = Path(ruta)
         self._catalogo = catalogo
         self._memoria = RepositorioEnMemoria()
+        self.respaldo_de_archivo_danado: Optional[Path] = None
         self._cargar()
 
     def listar(self) -> list[Solicitud]:
@@ -112,18 +114,29 @@ class RepositorioJSON:
             for registro in contenido["solicitudes"]:
                 self._memoria.guardar(self._desde_registro(registro))
         except (json.JSONDecodeError, KeyError, TypeError, ValueError):
-            # Mismo comportamiento que la versión inicial: se arranca vacío.
-            # Mejora pendiente: avisar al usuario y no sobrescribir el archivo dañado.
+            # El archivo no se puede leer: se aparta para no sobrescribirlo y se arranca vacío.
             self._memoria = RepositorioEnMemoria()
+            self.respaldo_de_archivo_danado = self._apartar_archivo_danado()
+
+    def _apartar_archivo_danado(self) -> Path:
+        respaldo = self._ruta.with_name(self._ruta.name + ".danado")
+        numero = 1
+        while respaldo.exists():
+            numero += 1
+            respaldo = self._ruta.with_name(f"{self._ruta.name}.danado{numero}")
+        self._ruta.rename(respaldo)
+        return respaldo
 
     def _escribir_archivo(self) -> None:
+        """Escribe primero en un archivo temporal y después lo reemplaza: si el programa
+        se corta a mitad de la escritura, el datos.json anterior queda intacto."""
         contenido = {
             "contador": self._memoria.ultimo_id,
             "solicitudes": [self._a_registro(s) for s in self._memoria.listar()],
         }
-        self._ruta.write_text(
-            json.dumps(contenido, indent=2, ensure_ascii=False), encoding="utf-8"
-        )
+        temporal = self._ruta.with_name(self._ruta.name + ".tmp")
+        temporal.write_text(json.dumps(contenido, indent=2, ensure_ascii=False), encoding="utf-8")
+        os.replace(temporal, self._ruta)
 
     # -- traducción entre objetos de dominio y el formato histórico del archivo
     @staticmethod

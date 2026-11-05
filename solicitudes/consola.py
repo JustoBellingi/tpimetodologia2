@@ -4,7 +4,7 @@ Es la única parte del sistema que usa input() y print().
 """
 from __future__ import annotations
 
-from typing import Callable
+from typing import Callable, Iterable
 
 from solicitudes.dominio import DatosInvalidos, ErrorDeNegocio, Estado, Solicitud, TipoSolicitud
 from solicitudes.filtros import Filtro, PorEstado, PorLegajo, PorTipo, Todas
@@ -56,7 +56,9 @@ class Consola:
             "5": self._mostrar_reporte,
         }
 
-    def ejecutar(self) -> None:
+    def ejecutar(self, avisos: Iterable[str] = ()) -> None:
+        for aviso in avisos:
+            self._mostrar(aviso)
         while True:
             for linea in MENU:
                 self._mostrar(linea)
