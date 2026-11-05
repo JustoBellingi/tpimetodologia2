@@ -52,7 +52,7 @@ Resultado **antes** de las correcciones. ✔ cumple · ✘ no cumple · ⚠ cump
 | C1 | `0fd4e09` | Validar el ID antes de pedir estado o responsable; quitar import sin uso | `test_asignar_a_un_id_inexistente_...`, `test_cambiar_estado_de_un_id_inexistente_...`, escenario 03 |
 | C2 | `8820ce3` | Criterio de búsqueda `4-Todas` como clase nueva, sin tocar el servicio | `test_la_opcion_todas_...`, `test_un_criterio_invalido_...`, escenario 04 |
 | C3 | `69d5952` | Apartar `datos.json` dañado, avisar y escribir de forma atómica | `test_un_archivo_danado_...`, `test_un_archivo_sano_...` |
-| C4 | ver `git log` | README y documentación actualizados | — |
+| C4 | `9afa8e5` | README y documentación actualizados | — |
 
 Las diferencias aprobadas en los escenarios están en `docs/evidencias/`
 (`C1_03_reglas_estado.diff`, `C2_01_...`, `C2_03_...`, `C2_04_...`).
