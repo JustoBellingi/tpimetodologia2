@@ -41,3 +41,11 @@ class PorLegajo:
 class PendientesDePrioridadAlta:
     def cumple(self, solicitud: Solicitud) -> bool:
         return solicitud.estado is Estado.PENDIENTE and solicitud.prioridad is Prioridad.ALTA
+
+
+@dataclass(frozen=True)
+class Todas:
+    """Criterio agregado en el code review: se sumó sin modificar el servicio (OCP)."""
+
+    def cumple(self, solicitud: Solicitud) -> bool:
+        return True

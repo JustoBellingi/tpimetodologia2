@@ -36,8 +36,8 @@ Tipo: Descripcion: Prioridad (alta/media/baja): Solicitud registrada con ID 3
 4. Buscar solicitudes
 5. Reporte
 0. Salir
-Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo
-Criterio: Valor: Error: criterio invalido
+Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
+Criterio: Error: criterio invalido
 
 === GESTION DE SOLICITUDES ACADEMICAS ===
 1. Registrar solicitud
@@ -46,7 +46,7 @@ Criterio: Valor: Error: criterio invalido
 4. Buscar solicitudes
 5. Reporte
 0. Salir
-Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo
+Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
 Criterio: Valor: Error: estado invalido
 
 === GESTION DE SOLICITUDES ACADEMICAS ===
@@ -56,7 +56,7 @@ Criterio: Valor: Error: estado invalido
 4. Buscar solicitudes
 5. Reporte
 0. Salir
-Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo
+Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
 Criterio: Valor: Error: tipo de solicitud invalido
 
 === GESTION DE SOLICITUDES ACADEMICAS ===
@@ -66,7 +66,7 @@ Criterio: Valor: Error: tipo de solicitud invalido
 4. Buscar solicitudes
 5. Reporte
 0. Salir
-Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo
+Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
 Criterio: Valor: No se encontraron solicitudes
 
 === GESTION DE SOLICITUDES ACADEMICAS ===
@@ -76,7 +76,7 @@ Criterio: Valor: No se encontraron solicitudes
 4. Buscar solicitudes
 5. Reporte
 0. Salir
-Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo
+Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
 Criterio: Valor: #1 [CERTIFICADO] Pedro (legajo 3001) - prioridad alta - PENDIENTE - responsable: sin asignar
 #2 [RECLAMO_NOTA] Pedro (legajo 3001) - prioridad baja - PENDIENTE - responsable: sin asignar
 
@@ -87,7 +87,7 @@ Criterio: Valor: #1 [CERTIFICADO] Pedro (legajo 3001) - prioridad alta - PENDIEN
 4. Buscar solicitudes
 5. Reporte
 0. Salir
-Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo
+Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
 Criterio: Valor: #2 [RECLAMO_NOTA] Pedro (legajo 3001) - prioridad baja - PENDIENTE - responsable: sin asignar
 #3 [RECLAMO_NOTA] Lucia (legajo 3002) - prioridad alta - PENDIENTE - responsable: sin asignar
 
@@ -98,7 +98,7 @@ Criterio: Valor: #2 [RECLAMO_NOTA] Pedro (legajo 3001) - prioridad baja - PENDIE
 4. Buscar solicitudes
 5. Reporte
 0. Salir
-Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo
+Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
 Criterio: Valor: #1 [CERTIFICADO] Pedro (legajo 3001) - prioridad alta - PENDIENTE - responsable: sin asignar
 #2 [RECLAMO_NOTA] Pedro (legajo 3001) - prioridad baja - PENDIENTE - responsable: sin asignar
 #3 [RECLAMO_NOTA] Lucia (legajo 3002) - prioridad alta - PENDIENTE - responsable: sin asignar
@@ -111,6 +111,18 @@ Criterio: Valor: #1 [CERTIFICADO] Pedro (legajo 3001) - prioridad alta - PENDIEN
 5. Reporte
 0. Salir
 Opcion: Opcion invalida
+
+=== GESTION DE SOLICITUDES ACADEMICAS ===
+1. Registrar solicitud
+2. Cambiar estado
+3. Asignar responsable
+4. Buscar solicitudes
+5. Reporte
+0. Salir
+Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
+Criterio: #1 [CERTIFICADO] Pedro (legajo 3001) - prioridad alta - PENDIENTE - responsable: sin asignar
+#2 [RECLAMO_NOTA] Pedro (legajo 3001) - prioridad baja - PENDIENTE - responsable: sin asignar
+#3 [RECLAMO_NOTA] Lucia (legajo 3002) - prioridad alta - PENDIENTE - responsable: sin asignar
 
 === GESTION DE SOLICITUDES ACADEMICAS ===
 1. Registrar solicitud

@@ -160,7 +160,7 @@ Nuevo estado: Solicitud 2 actualizada a RECHAZADA
 4. Buscar solicitudes
 5. Reporte
 0. Salir
-Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo
+Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
 Criterio: Valor: #2 [CERTIFICADO] Sofia (legajo 2002) - prioridad baja - RECHAZADA - responsable: sin asignar
 
 === GESTION DE SOLICITUDES ACADEMICAS ===

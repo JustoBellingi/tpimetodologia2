@@ -1,0 +1,55 @@
+--- 04_busquedas (antes)
++++ 04_busquedas (despues)
+@@ -42,4 +42,4 @@
+ Opcion: 
+-Criterios: 1-Estado 2-Tipo 3-Legajo
+-Criterio: Valor: Error: criterio invalido
++Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
++Criterio: Error: criterio invalido
+ 
+@@ -53,3 +53,3 @@
+ Opcion: 
+-Criterios: 1-Estado 2-Tipo 3-Legajo
++Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
+ Criterio: Valor: Error: estado invalido
+@@ -64,3 +64,3 @@
+ Opcion: 
+-Criterios: 1-Estado 2-Tipo 3-Legajo
++Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
+ Criterio: Valor: Error: tipo de solicitud invalido
+@@ -75,3 +75,3 @@
+ Opcion: 
+-Criterios: 1-Estado 2-Tipo 3-Legajo
++Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
+ Criterio: Valor: No se encontraron solicitudes
+@@ -86,3 +86,3 @@
+ Opcion: 
+-Criterios: 1-Estado 2-Tipo 3-Legajo
++Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
+ Criterio: Valor: #1 [CERTIFICADO] Pedro (legajo 3001) - prioridad alta - PENDIENTE - responsable: sin asignar
+@@ -98,3 +98,3 @@
+ Opcion: 
+-Criterios: 1-Estado 2-Tipo 3-Legajo
++Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
+ Criterio: Valor: #2 [RECLAMO_NOTA] Pedro (legajo 3001) - prioridad baja - PENDIENTE - responsable: sin asignar
+@@ -110,3 +110,3 @@
+ Opcion: 
+-Criterios: 1-Estado 2-Tipo 3-Legajo
++Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
+ Criterio: Valor: #1 [CERTIFICADO] Pedro (legajo 3001) - prioridad alta - PENDIENTE - responsable: sin asignar
+@@ -124,2 +124,15 @@
+ Opcion invalida
++
++=== GESTION DE SOLICITUDES ACADEMICAS ===
++1. Registrar solicitud
++2. Cambiar estado
++3. Asignar responsable
++4. Buscar solicitudes
++5. Reporte
++0. Salir
++Opcion: 
++Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
++Criterio: #1 [CERTIFICADO] Pedro (legajo 3001) - prioridad alta - PENDIENTE - responsable: sin asignar
++#2 [RECLAMO_NOTA] Pedro (legajo 3001) - prioridad baja - PENDIENTE - responsable: sin asignar
++#3 [RECLAMO_NOTA] Lucia (legajo 3002) - prioridad alta - PENDIENTE - responsable: sin asignar
+ 

@@ -7,7 +7,7 @@ from __future__ import annotations
 from typing import Callable
 
 from solicitudes.dominio import DatosInvalidos, ErrorDeNegocio, Estado, Solicitud, TipoSolicitud
-from solicitudes.filtros import Filtro, PorEstado, PorLegajo, PorTipo
+from solicitudes.filtros import Filtro, PorEstado, PorLegajo, PorTipo, Todas
 from solicitudes.formulario import FormularioSolicitud
 from solicitudes.servicio import Reporte, ServicioSolicitudes
 
@@ -116,10 +116,9 @@ class Consola:
         )
 
     def _buscar(self) -> None:
-        self._mostrar("Criterios: 1-Estado 2-Tipo 3-Legajo")
+        self._mostrar("Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas")
         criterio = self._leer("Criterio: ")
-        valor = self._leer("Valor: ")
-        encontradas = self._servicio.buscar(self._crear_filtro(criterio, valor))
+        encontradas = self._servicio.buscar(self._crear_filtro(criterio))
         if not encontradas:
             self._mostrar("No se encontraron solicitudes")
         for solicitud in encontradas:
@@ -160,14 +159,17 @@ class Consola:
         self._servicio.obtener(id_solicitud)
         return id_solicitud
 
-    def _crear_filtro(self, criterio: str, valor: str) -> Filtro:
+    def _crear_filtro(self, criterio: str) -> Filtro:
+        if criterio == "4":
+            return Todas()
+        if criterio not in ("1", "2", "3"):
+            raise DatosInvalidos("criterio invalido")
+        valor = self._leer("Valor: ")
         if criterio == "1":
             return PorEstado(self._elegir(ESTADOS_PARA_BUSCAR, valor, "estado invalido"))
         if criterio == "2":
             return PorTipo(self._elegir_tipo(valor))
-        if criterio == "3":
-            return PorLegajo(valor)
-        raise DatosInvalidos("criterio invalido")
+        return PorLegajo(valor)
 
     @staticmethod
     def _elegir(opciones: dict[str, Estado], clave: str, mensaje_error: str) -> Estado:

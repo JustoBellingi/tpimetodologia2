@@ -113,7 +113,7 @@ Pendientes de prioridad alta:
 4. Buscar solicitudes
 5. Reporte
 0. Salir
-Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo
+Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
 Criterio: Valor: #3 [RECLAMO_NOTA] Carlos Ruiz (legajo 1003) - prioridad alta - PENDIENTE - responsable: sin asignar
 
 === GESTION DE SOLICITUDES ACADEMICAS ===
@@ -123,7 +123,7 @@ Criterio: Valor: #3 [RECLAMO_NOTA] Carlos Ruiz (legajo 1003) - prioridad alta - 
 4. Buscar solicitudes
 5. Reporte
 0. Salir
-Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo
+Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
 Criterio: Valor: No se encontraron solicitudes
 
 === GESTION DE SOLICITUDES ACADEMICAS ===
@@ -133,7 +133,7 @@ Criterio: Valor: No se encontraron solicitudes
 4. Buscar solicitudes
 5. Reporte
 0. Salir
-Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo
+Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
 Criterio: Valor: #3 [RECLAMO_NOTA] Carlos Ruiz (legajo 1003) - prioridad alta - PENDIENTE - responsable: sin asignar
 
 === GESTION DE SOLICITUDES ACADEMICAS ===
@@ -143,7 +143,7 @@ Criterio: Valor: #3 [RECLAMO_NOTA] Carlos Ruiz (legajo 1003) - prioridad alta - 
 4. Buscar solicitudes
 5. Reporte
 0. Salir
-Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo
+Opcion: Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
 Criterio: Valor: #2 [EQUIVALENCIA] Maria Lopez (legajo 1002) - prioridad media - RECHAZADA - responsable: Ana Gomez
 
 === GESTION DE SOLICITUDES ACADEMICAS ===

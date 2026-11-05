@@ -1,0 +1,7 @@
+--- 03_reglas_estado (antes)
++++ 03_reglas_estado (despues)
+@@ -178,3 +178,3 @@
+ Opcion: 
+-Criterios: 1-Estado 2-Tipo 3-Legajo
++Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
+ Criterio: Valor: #2 [CERTIFICADO] Sofia (legajo 2002) - prioridad baja - RECHAZADA - responsable: sin asignar

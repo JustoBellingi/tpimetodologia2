@@ -44,3 +44,14 @@ def test_cambiar_estado_de_un_id_inexistente_falla_antes_de_pedir_el_estado():
     salida = ejecutar_consola(["2", "99", "0"])
     assert "Error: no existe la solicitud 99" in salida
     assert "Estados: 1-En proceso 2-Resuelta 3-Rechazada" not in salida
+
+
+def test_la_opcion_todas_lista_cada_solicitud_sin_pedir_valor():
+    alta = ["1", "Ana", "1", "a@m.com", "1", "desc", "alta"]
+    salida = ejecutar_consola(alta + alta + ["4", "4", "0"])
+    assert sum(linea.startswith("#") for linea in salida) == 2
+
+
+def test_un_criterio_invalido_falla_sin_pedir_valor():
+    salida = ejecutar_consola(["4", "9", "0"])
+    assert "Error: criterio invalido" in salida

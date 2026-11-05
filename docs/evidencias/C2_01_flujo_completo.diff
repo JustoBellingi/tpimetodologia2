@@ -1,0 +1,22 @@
+--- 01_flujo_completo (antes)
++++ 01_flujo_completo (despues)
+@@ -125,3 +125,3 @@
+ Opcion: 
+-Criterios: 1-Estado 2-Tipo 3-Legajo
++Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
+ Criterio: Valor: #3 [RECLAMO_NOTA] Carlos Ruiz (legajo 1003) - prioridad alta - PENDIENTE - responsable: sin asignar
+@@ -136,3 +136,3 @@
+ Opcion: 
+-Criterios: 1-Estado 2-Tipo 3-Legajo
++Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
+ Criterio: Valor: No se encontraron solicitudes
+@@ -147,3 +147,3 @@
+ Opcion: 
+-Criterios: 1-Estado 2-Tipo 3-Legajo
++Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
+ Criterio: Valor: #3 [RECLAMO_NOTA] Carlos Ruiz (legajo 1003) - prioridad alta - PENDIENTE - responsable: sin asignar
+@@ -158,3 +158,3 @@
+ Opcion: 
+-Criterios: 1-Estado 2-Tipo 3-Legajo
++Criterios: 1-Estado 2-Tipo 3-Legajo 4-Todas
+ Criterio: Valor: #2 [EQUIVALENCIA] Maria Lopez (legajo 1002) - prioridad media - RECHAZADA - responsable: Ana Gomez
