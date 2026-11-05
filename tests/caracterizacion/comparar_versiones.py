@@ -41,8 +41,16 @@ def main() -> int:
                 f"{'IGUAL' if mismos_datos else 'DISTINTO':<14}"
             )
         print("-" * 64)
-        print("Sin diferencias." if diferencias == 0 else f"{diferencias} diferencia(s).")
-        return 0 if diferencias == 0 else 1
+        if diferencias == 0:
+            print("Sin diferencias.")
+            return 0
+        print(f"{diferencias} diferencia(s).")
+        print(
+            "Si se ejecuta sobre main, son los cambios intencionales del code review\n"
+            "(revisados en docs/evidencias/). Para ver solo el efecto del refactoring:\n"
+            "  git checkout etapa-pruebas  y volver a ejecutar este script."
+        )
+        return 1
 
 
 if __name__ == "__main__":

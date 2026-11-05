@@ -27,7 +27,13 @@ las convierte en texto `Error: ...`. Los errores inesperados ya no se silencian.
 | Fin de entrada (EOF) en el menú | Traceback de Python | `Hasta luego` y sale |
 | Error de programación inesperado | Oculto por `except:` | Se muestra (no se silencia) |
 
-## 6. Mejoras pendientes (fuera de alcance)
-- Si `datos.json` está dañado se sigue arrancando vacío (igual que antes); lo correcto
-  sería avisar y no sobrescribir el archivo. Se dejó igual para no cambiar el comportamiento.
+## 6. Mejoras pendientes
+- ~~Si `datos.json` está dañado se arranca vacío y se sobrescribe.~~ Corregido en el
+  code review (C3, ver `code-review.md`). Durante el refactoring se dejó igual a propósito
+  para no mezclar refactoring con cambios de comportamiento.
 - El catálogo de responsables sigue fijo en código.
+
+## 7. Refactoring y cambios de comportamiento van separados
+El refactoring (etapa 5) no cambió el comportamiento: el golden master quedó intacto.
+Las mejoras de comportamiento se hicieron después, en el code review (etapa 7), cada una
+con su test y con la diferencia del golden master revisada y guardada en `docs/evidencias/`.

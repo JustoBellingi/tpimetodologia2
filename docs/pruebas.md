@@ -1,5 +1,9 @@
 # Pruebas y verificación del comportamiento (etapa 6)
 
+> Este documento refleja el estado del tag `etapa-pruebas` (37 tests).
+> Después, el code review agregó 6 tests y cambió a propósito algunas salidas
+> (ver `code-review.md`): sobre `main`, `comparar_versiones` muestra esas diferencias aprobadas.
+
 ## Estrategia
 1. **Tests de caracterización (golden master).** Antes de refactorizar se grabó lo que hacía
    la versión inicial en 5 escenarios: la salida completa en pantalla y el `datos.json` final.
