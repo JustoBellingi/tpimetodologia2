@@ -1,0 +1,31 @@
+--- 03_reglas_estado (antes)
++++ 03_reglas_estado (despues)
+@@ -53,17 +53,13 @@
+ Opcion: 
+-ID de la solicitud: Estados: 1-En proceso 2-Resuelta 3-Rechazada
+-Nuevo estado: Error: no existe la solicitud 99
+-
+-=== GESTION DE SOLICITUDES ACADEMICAS ===
+-1. Registrar solicitud
+-2. Cambiar estado
+-3. Asignar responsable
+-4. Buscar solicitudes
+-5. Reporte
+-0. Salir
+-Opcion: 
+-ID de la solicitud:   R1 - Ana Gomez (Alumnos)
+-  R2 - Luis Perez (Academica)
+-  R3 - Marta Diaz (Tesoreria)
+-Codigo de responsable: Error: no existe la solicitud 99
++ID de la solicitud: Error: no existe la solicitud 99
++
++=== GESTION DE SOLICITUDES ACADEMICAS ===
++1. Registrar solicitud
++2. Cambiar estado
++3. Asignar responsable
++4. Buscar solicitudes
++5. Reporte
++0. Salir
++Opcion: 
++ID de la solicitud: Error: no existe la solicitud 99
+ 

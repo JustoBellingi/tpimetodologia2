@@ -46,8 +46,7 @@ Nuevo estado: Error: no se puede pasar de PENDIENTE a RESUELTA
 4. Buscar solicitudes
 5. Reporte
 0. Salir
-Opcion: ID de la solicitud: Estados: 1-En proceso 2-Resuelta 3-Rechazada
-Nuevo estado: Error: no existe la solicitud 99
+Opcion: ID de la solicitud: Error: no existe la solicitud 99
 
 === GESTION DE SOLICITUDES ACADEMICAS ===
 1. Registrar solicitud
@@ -56,10 +55,7 @@ Nuevo estado: Error: no existe la solicitud 99
 4. Buscar solicitudes
 5. Reporte
 0. Salir
-Opcion: ID de la solicitud:   R1 - Ana Gomez (Alumnos)
-  R2 - Luis Perez (Academica)
-  R3 - Marta Diaz (Tesoreria)
-Codigo de responsable: Error: no existe la solicitud 99
+Opcion: ID de la solicitud: Error: no existe la solicitud 99
 
 === GESTION DE SOLICITUDES ACADEMICAS ===
 1. Registrar solicitud

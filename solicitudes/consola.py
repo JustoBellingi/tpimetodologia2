@@ -9,7 +9,7 @@ from typing import Callable
 from solicitudes.dominio import DatosInvalidos, ErrorDeNegocio, Estado, Solicitud, TipoSolicitud
 from solicitudes.filtros import Filtro, PorEstado, PorLegajo, PorTipo
 from solicitudes.formulario import FormularioSolicitud
-from solicitudes.servicio import Reporte, ServicioSolicitudes, generar_reporte
+from solicitudes.servicio import Reporte, ServicioSolicitudes
 
 ESTADOS_PARA_CAMBIAR = {"1": Estado.EN_PROCESO, "2": Estado.RESUELTA, "3": Estado.RECHAZADA}
 ESTADOS_PARA_BUSCAR = {"1": Estado.PENDIENTE, "2": Estado.EN_PROCESO, "3": Estado.RESUELTA, "4": Estado.RECHAZADA}
@@ -97,16 +97,15 @@ class Consola:
         self._mostrar(f"Solicitud registrada con ID {solicitud.id}")
 
     def _cambiar_estado(self) -> None:
-        id_solicitud = self._leer_id()
+        id_solicitud = self._leer_id_existente()
         self._mostrar("Estados: 1-En proceso 2-Resuelta 3-Rechazada")
         opcion = self._leer("Nuevo estado: ")
-        self._servicio.obtener(id_solicitud)  # primero se informa si la solicitud no existe
         nuevo_estado = self._elegir(ESTADOS_PARA_CAMBIAR, opcion, "opcion de estado invalida")
         solicitud = self._servicio.cambiar_estado(id_solicitud, nuevo_estado)
         self._mostrar(f"Solicitud {solicitud.id} actualizada a {solicitud.estado.etiqueta}")
 
     def _asignar_responsable(self) -> None:
-        id_solicitud = self._leer_id()
+        id_solicitud = self._leer_id_existente()
         for responsable in self._servicio.responsables():
             self._mostrar(f"  {responsable.codigo} - {responsable.nombre} ({responsable.area})")
         codigo = self._leer("Codigo de responsable: ")
@@ -154,6 +153,12 @@ class Consola:
             return int(texto)
         except ValueError:
             raise DatosInvalidos("el ID debe ser numerico") from None
+
+    def _leer_id_existente(self) -> int:
+        """Valida que la solicitud exista antes de pedir el resto de los datos."""
+        id_solicitud = self._leer_id()
+        self._servicio.obtener(id_solicitud)
+        return id_solicitud
 
     def _crear_filtro(self, criterio: str, valor: str) -> Filtro:
         if criterio == "1":
