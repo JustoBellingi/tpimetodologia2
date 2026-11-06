@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 datos.json.danado*
 datos.json.tmp
+app_inicial.py
